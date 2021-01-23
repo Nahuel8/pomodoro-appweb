@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(219, 82, 77);
+    color: rgb(248, 246, 236);
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    font-size: 40px;
+    padding-right: 5px;
+}
+
+h1 {
+    font-family: 'Fjalla One';
+    display: inline-block;
+    height: 0;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.container-header {
+    height: 70px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.486);
+    width: 100%;
+}
+
+.container__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.container-items {
+    display: flex;
+    margin-top: 0;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.container-items__item {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: rgb(248, 246, 236);
+    background-color: rgb(219, 82, 77);
+    border: 0;
+    transition: all .4s;
+}
+
+.container-items__item:hover {
+    color: black;
+    background-color: rgba(248, 246, 236, 0.699);
+}
+
+.container-items__item i {
+    margin-right: 5px;
+    
+}
+
+.container-main {
+    width: 500px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(248, 246, 236, 0.199);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.options-bar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 440px;
+}
+
+.options-bar a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(248, 246, 236);
+    text-decoration: none;
+}
+
+.container-timer {
+    height: 250px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-timer h2{
+    font-size: 70px;
+    margin: 10px
+}
+
+
+.container-timer a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 15px 20px;
+    border-radius: 40px;
+    transition: all .4s;
+}
+
+.container-timer a:hover {
+    color: white;
+    background-color: rgba(5, 5, 5, 0.822);
+}
+
+.isDisabled {
+    color:currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+
+/* *            <- Personalización del Descanso largo ->           */
+
+.bg-cyan {
+    background-color: #13818b;
+}
+
+
+
+/* *            <- Personalización del Pomodoro->           */
+
+.bg-default {
+    background-color: rgb(219, 82, 77);
+}
+
+/* *            <- Personalización del Pomodoro->           */
+
+.bg-green{
+    background-color: #1c856a;
+}
